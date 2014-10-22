@@ -16,28 +16,33 @@ NOWTH ISISA STORY ALLAB OUTHO WXXXX
 
 *Clubs*
 
-`Card Value:   A  2  3  4  5  6  7  8  9  10  J  Q  K
-Number Value: 1  2  3  4  5  6  7  8  9  10  11 12 13`
+`Card Value:   A  2  3  4  5  6  7  8  9  10  J  Q  K`
+
+`Number Value: 1  2  3  4  5  6  7  8  9  10  11 12 13`
 
 *Diamonds*
 
-`Card Value:   A  2  3  4  5  6  7  8  9  10  J  Q  K
-Number Value: 14 15 16 17 18 19 20 21 22 23  24 25 26`
+`Card Value:   A  2  3  4  5  6  7  8  9  10  J  Q  K`
+
+`Number Value: 14 15 16 17 18 19 20 21 22 23  24 25 26`
 
 *Hearts*
 
-`Card Value:   A  2  3  4  5  6  7  8  9  10  J  Q  K
-Number Value: 27 28 29 30 31 32 33 34 35 36  37 38 39`
+`Card Value:   A  2  3  4  5  6  7  8  9  10  J  Q  K`
+
+`Number Value: 27 28 29 30 31 32 33 34 35 36  37 38 39`
 
 *Spades*
 
-`Card Value:   A  2  3  4  5  6  7  8  9  10  J  Q  K
-Number Value: 40 41 42 43 44 45 46 47 48 49  50 51 52`
+`Card Value:   A  2  3  4  5  6  7  8  9  10  J  Q  K`
+
+`Number Value: 40 41 42 43 44 45 46 47 48 49  50 51 52`
 
 *Jokers*
 
-`Card Value:   A  B
-Number Value: 53 53`
+`Card Value:   A  B`
+
+`Number Value: 53 53`
 
 ### Keying the deck
 
@@ -53,39 +58,45 @@ B
 
 7. Move the A joker down one card. 
 
-`Your deck: 
-1 2 3 … 52 B A`
+`Your deck:`
+
+`1 2 3 … 52 B A`
 
 Since we just moved J1 down one card.
 
 8. Move the B joker down two cards. If the joker is at the bottom of the deck, move it one card under the top card, as if it were circular. 
 
-`Your deck:
-1 B 2 3 … 52 A`
+`Your deck:`
+
+`1 B 2 3 … 52 A`
 
 Since we have now moved B as well. 
 
 9. Triple cut: Move all the cards on top of B to below A and move all cards below A to the top of B. Jokers and the middle cards stay put.
 
-`Your deck:
-B 2 3 … 52 A 1`
+`Your deck:`
+
+`B 2 3 … 52 A 1`
 
 10. Count cut: Using the value of the bottom card, in our case 1. Take that many cards off the top and put them back in the deck just above the bottom card.
 
-`Your deck:
-2 3 … 52 A B 1`
+`Your deck:`
+
+`2 3 … 52 A B 1`
 
 11. Output letter: Using the value of the top card, in our case 2. Count that many cards down and look at the card, in our case 4. Convert 4 to a letter using our method.
 
-`2 3 *4* 5 6 7
-B C *D* E F G`
+`2 3 *4* 5 6 7`
+
+`B C *D* E F G`
 
 12. If you need another encrypted letter go back to step 7.
 
 13. Convert all of the letters from your original message to numbers, using our method:
 
-`A B C D E F G H I J  K  L  M  N  O  P  Q  R  S  T  U  V  W  X Y  Z
-1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26`
+`A B C D E F G H I J  K  L  M  N  O  P  Q  R  S  T  U  V  W  X Y  Z`
+
+`1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26`
 
 Our original passphrase converted to numbers:
 `14 15 23 20 8  9 19 9 19 1  19 20 15 18 25  1 12 12 1 2  15 21 20 8 15  23 24 24 24 24`
