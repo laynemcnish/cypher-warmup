@@ -10,7 +10,7 @@ g3-cypher-warmup
 Now this is a story all about how… 
 
 *Output*
-NOWTH ISISA STORY ALLAB OUTHO WXXXX
+`NOWTH ISISA STORY ALLAB OUTHO WXXXX`
 
 5. You will use virtual deck of 52 cards and two jokers, we will assign the values as so:
 
