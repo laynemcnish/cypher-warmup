@@ -6,10 +6,10 @@ g3-cypher-warmup
 3. Split the messages into 5 character groups.
 4. Add ‘X’s to the end of the last group to make it 5 characters long.
 
-*Input*
+Input:
 Now this is a story all about how… 
 
-*Output*
+Output:
 `NOWTH ISISA STORY ALLAB OUTHO WXXXX`
 
 5. You will use virtual deck of 52 cards and two jokers, we will assign the values as so:
